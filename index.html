@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Bundok PH | Where you find your next adventure</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!-- Hero Image-->
+	<div class="container-fluid" id="heroimage">
+		<div class="row">
+			<div class="span12" id="herocentered">
+			<h1 class="bph-head1">Reveal your own world</h1><br/>
+			<h3 class="bph-head3" style="width: 50%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+			<img class="img-responsive center-block" id="logofull" src="img/logofull.png"/>
+			</div>
+			
+		</div>
+	</div>
+	<!-- Hero Image-->
+	
+	<!-- Navigation -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		    <!-- Toggles for Mobile -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Bundok PH</a>
+			</div>
+		    <!-- Toggles for Mobile -->
+			
+		    <!-- Actual menu -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="#">List of Events</a></li>
+					<li><a href="#">Submit an Event</a></li>
+					<li><a href="#">Hiker's Tales</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+				<form class="navbar-form navbar-right" role="search">
+					<button type="button" class="btn btn-default">Search</button>
+				</form>
+			</div>
+		    <!-- Actual menu -->
+		</div>
+	</nav>
+	<!-- Navigation -->
+	
+	<!-- Schedule-->
+	<div class="container-fluid" id="scheduleimage">
+		<div class="row">
+			<div class="span12" id="calendaralign">
+				<h2 class="bph-head2" style="margin-top: 10%;">Seek for your world &amp; <br/> we'll take care of the rest</h2>
+				<img class="img-responsive center-block" id="calendartemp" src="img/calendar.jpg"/>
+			</div>
+		</div>
+	</div>
+	<!-- Schedule-->
+		
+</div>
+
+<script type="text/javascript">
+var navbartop = $('.navbar').offset().top;
+
+$(window).scroll(function() {  
+    if ($(window).scrollTop() > navbartop || $(window).width() < 950) {
+        $('.navbar').addClass('navbar-fixed-top');
+    }
+    else {
+        $('.navbar').removeClass('navbar-fixed-top');
+    }  
+});
+</script>
+
+</body>
+</html>

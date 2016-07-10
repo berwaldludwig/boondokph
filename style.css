@@ -1,0 +1,111 @@
+/* Start of Extra Declarations */
+@font-face {
+    font-family: 'brownfox';
+    src: url('/font/brownfox.woff2') format('woff2'),
+         url('/font/brownfox.woff') format('woff'),
+         url('/font/brownfox.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* End of Extra Declarations */
+
+
+/* Start of Custom CSS for Bootstrap */
+.navbar{
+	border-radius: 0px !important;
+	margin-bottom: 0 !important;
+}
+
+.navbar-default {
+	border: none !important;
+	background-color: #fff;
+	padding: 1%;
+}
+
+.btn-default{
+	border-style: solid !important;
+	border-width: 1px !important;
+	border-color: #c74027 !important;
+	border-radius: 20px !important;
+	background-color: #c74027 !important;
+	color: #fff !important;
+	text-transform: uppercase;
+	transition: 0.25s;
+}
+
+.btn-default:hover{
+	transition: 0.25s;
+	background-color: transparent !important;
+	color: #c74027 !important;
+}
+
+.bph-head1{
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	font-family: brownfox, sans-serif !important;
+}
+
+.bph-head2{
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	font-family: brownfox, sans-serif !important;
+}
+
+.bph-head3{
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.5em;
+}
+
+/* End of Custom CSS for Bootstrap */
+
+
+/* Start of Custom Formatting */
+
+	/* Images */
+	#heroimage {
+		background: url("img/hero.jpg") no-repeat top center;
+		background-size: cover;
+		height:600px;
+	}
+	#scheduleimage {
+		background: url("img/schedule.jpg") no-repeat top center;
+		background-size: cover;
+		height:600px;
+	}
+
+	#calendartemp {
+		width: 60%;
+		margin-top: 250px;
+	}
+
+	#logofull {
+		width: 30%;
+	}
+
+	/* Formatting */
+	html {
+	margin-bottom: 100px;
+	font-size: 12px;
+	}
+	
+	#herocentered {
+	width: 100%;
+	margin-top: 20%;
+	margin-bottom: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	}
+	
+	#calendaralign {
+	position: relative;
+	height: 600px;
+	}
+
+/* End of Custom Formatting */
